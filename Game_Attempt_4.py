@@ -1,12 +1,12 @@
 import pygame  # Game Graphics Library
 import random  # Random Numbers Library
-import math  # Math 
+import math  # Math
 
 # Initialize Pygame
 pygame.init()
 
-# Initialize a screen
-WIDTH, HEIGHT = 800, 600
+# Screen
+WIDTH, HEIGHT = 800, 576
 screen = pygame.display.set_mode((WIDTH, HEIGHT))  # (x,y) or (w,h)
 
 # Title and Icon
@@ -17,7 +17,7 @@ pygame.display.set_caption("CORONA INVASION GAME")
 PLAYER = pygame.image.load('doctor.png') # playerImg
 # X and Y axis values Center
 playerX = 350
-playerY = 520
+playerY = 430
 player_ChangeX = 0
 
 # Creating A List Of Enemies
